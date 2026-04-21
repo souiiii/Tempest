@@ -1,0 +1,105 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-white);
+  z-index: 100;
+  border-bottom: 2px solid #5fa4ed;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  color: var(--color-primary);
+}
+
+.navbar-center {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--color-dark-gray);
+  letter-spacing: 1px;
+  transition: color var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-btn {
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-fast);
+}
+
+.user-btn:hover {
+  color: #666;
+}
+
+.talk-sales-btn {
+  background-color: #0b1016;
+  color: var(--color-white);
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  transition: background-color var(--transition-fast);
+}
+
+.talk-sales-btn:hover {
+  background-color: #242c38;
+}
+
+.region-selector {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity var(--transition-fast);
+}
+
+.region-selector:hover {
+  opacity: 1;
+}
+
+.flag-icon {
+  width: 20px;
+  height: auto;
+  border-radius: 2px;
+}
