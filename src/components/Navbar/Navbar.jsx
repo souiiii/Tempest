@@ -10,7 +10,6 @@ const Navbar = () => {
         <div className="navbar-left">
           <Link to="/" className="logo-link">
             <img src={logoImg} alt="Tempest logo" style={{ height: '28px', width: 'auto' }} className="logo-icon" />
-            <span className="logo-text">TEMPEST</span>
           </Link>
         </div>
         
