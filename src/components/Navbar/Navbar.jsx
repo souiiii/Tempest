@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logoImg from '../../assets/logo-temp.png';
 
 const Navbar = () => {
   return (
@@ -8,12 +9,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-left">
           <Link to="/" className="logo-link">
-            <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14 16C14 12.6863 16.6863 10 20 10C22.6186 10 24.843 11.6706 25.6888 14H29C31.2091 14 33 15.7909 33 18C33 20.2091 31.2091 22 29 22H14V16Z" fill="#0A0A0A"/>
-              <rect x="8" y="14" width="8" height="2" fill="#0A0A0A"/>
-              <rect x="4" y="18" width="8" height="2" fill="#0A0A0A"/>
-              <rect x="10" y="22" width="6" height="2" fill="#0A0A0A"/>
-            </svg>
+            <img src={logoImg} alt="Tempest logo" style={{ height: '28px', width: 'auto' }} className="logo-icon" />
             <span className="logo-text">TEMPEST</span>
           </Link>
         </div>
