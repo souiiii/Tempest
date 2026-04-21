@@ -1,0 +1,148 @@
+.workload-section {
+  background-color: var(--color-white);
+  padding: 4rem 0 6rem 0;
+  width: 100%;
+}
+
+.workload-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.workload-title {
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #111;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.workload-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.workload-card {
+  border: 1px solid #EDEDED;
+  background-color: var(--color-white);
+  padding: 2.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-large {
+  justify-content: space-between;
+  min-height: 280px;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.card-description {
+  font-size: 0.75rem;
+  color: #777;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.card-footer-text {
+  font-size: 0.65rem;
+  color: #A0A0A0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.card-icon-large {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: #E2E2E2; 
+}
+
+.workload-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.workload-row-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  flex: 1; 
+}
+
+.card-small {
+  padding: 2rem 1.5rem;
+  justify-content: center;
+}
+
+.card-title-small {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.2px;
+}
+
+.card-subtitle-small {
+  font-size: 0.55rem;
+  color: #999;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-dark {
+  background-color: #1A1A1A; 
+  border: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2.5rem;
+  flex: 1;
+}
+
+.card-dark-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title-dark {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.2px;
+}
+
+.card-description-dark {
+  font-size: 0.75rem;
+  color: #AAA;
+}
+
+.card-icon-dark {
+  color: var(--color-white);
+}
+
+@media (max-width: 900px) {
+  .workload-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .workload-row-top {
+    grid-template-columns: 1fr;
+  }
+}

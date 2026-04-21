@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import SystemSpecs from './components/SystemSpecs/SystemSpecs'
+import Workload from './components/Workload/Workload'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <main>
           <Hero />
           <SystemSpecs />
+          <Workload />
         </main>
       </div>
     </BrowserRouter>
