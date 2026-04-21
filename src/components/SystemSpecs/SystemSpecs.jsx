@@ -1,5 +1,5 @@
 import React from 'react';
-import { Gauge, Server, ShieldCheck, Globe } from '@phosphor-icons/react';
+import { Gauge, HardDrives, ShieldCheck, Globe } from '@phosphor-icons/react';
 import './SystemSpecs.css';
 
 const specsData = [
@@ -9,7 +9,7 @@ const specsData = [
     description: "Single-thread performance optimized for 20 TPS stability even under extreme world-gen workloads.",
   },
   {
-    icon: <Server size={24} weight="bold" />,
+    icon: <HardDrives size={24} weight="bold" />,
     title: "NVME STORAGE",
     description: "RAID 1 Enterprise NVMe arrays. Ultra-low seek times for instantaneous chunk loading and player data R/W.",
   },
