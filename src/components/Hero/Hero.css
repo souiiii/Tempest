@@ -5,11 +5,10 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  padding-top: 80px; /* offset for navbar Fixed position */
-  overflow: hidden;
+  padding-top: 140px; /* 80px navbar + 60px safe minimum gap */
+  padding-bottom: 4rem;
 }
 
 .hero-fog-overlay {
@@ -28,7 +27,7 @@
   z-index: 2;
   max-width: 900px;
   padding: 0 2rem;
-  margin-top: -6%;
+  margin: auto;
 }
 
 .hero-subtitle {
