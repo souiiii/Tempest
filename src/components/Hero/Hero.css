@@ -1,14 +1,13 @@
 .hero {
   position: relative;
-  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 140px; /* 80px navbar + 60px safe minimum gap */
-  padding-bottom: 4rem;
+  padding-top: 220px; 
+  padding-bottom: 180px;
 }
 
 .hero-fog-overlay {
@@ -25,34 +24,38 @@
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 900px;
+  max-width: 1100px;
   padding: 0 2rem;
   margin: auto;
 }
 
 .hero-subtitle {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 700;
-  letter-spacing: 2px;
-  color: #555;
-  margin-bottom: 0.75rem;
+  letter-spacing: 3px;
+  color: #666;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
 }
 
 .hero-title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
   line-height: 1.05;
   color: var(--color-primary);
-  margin-bottom: 1.5rem;
-  letter-spacing: -1.5px;
+  margin-bottom: 1.25rem;
+  letter-spacing: -2px;
 }
 
 .hero-description {
-  font-size: 1.05rem;
-  color: #444;       
+  font-size: 0.95rem;
+  color: #333;       
   margin-bottom: 2.5rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-buttons {
