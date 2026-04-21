@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import SystemSpecs from './components/SystemSpecs/SystemSpecs'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <main>
           <Hero />
+          <SystemSpecs />
         </main>
       </div>
     </BrowserRouter>
