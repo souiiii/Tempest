@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import SystemSpecs from './components/SystemSpecs/SystemSpecs'
 import Workload from './components/Workload/Workload'
 import InstanceTiers from './components/InstanceTiers/InstanceTiers'
+import Architecture from './components/Architecture/Architecture'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <SystemSpecs />
           <Workload />
           <InstanceTiers />
+          <Architecture />
         </main>
       </div>
     </BrowserRouter>
