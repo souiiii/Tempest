@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import SystemSpecs from './components/SystemSpecs/SystemSpecs'
 import Workload from './components/Workload/Workload'
+import InstanceTiers from './components/InstanceTiers/InstanceTiers'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Hero />
           <SystemSpecs />
           <Workload />
+          <InstanceTiers />
         </main>
       </div>
     </BrowserRouter>
